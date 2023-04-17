@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cellulant-Kubernetes
+  description: |
+    GitLab service
+  labels:
+    system: kubernetes
+    lifecycle: production
+  annotations:
+    backstage.io/kubernetes-id: cicdtooling-idp
+spec:
+  lifecycle: production
+  owner: cicd
+  type: service
